@@ -1,4 +1,4 @@
-`include "./verilog/design.v"
+`include "./verilog/mealy.v"
 
 module testbench;
 	reg clk, head, left;
