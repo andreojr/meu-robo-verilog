@@ -40,12 +40,10 @@ class Test:
         self.data = []
         for line in self.output:
             data_line = {}
-            line = [arg.strip() for arg in line.split("|")]
-            data_line["cur_state"] = line[0]
-            data_line["head"] = int(line[1][6])
-            data_line["left"] = int(line[1][14])
-            data_line["out"] = line[2]
-            data_line["future_state"] = line[3]
+            line = [arg.strip() for arg in line.split(",")]
+            data_line["head"] = int(line[0][-1])
+            data_line["left"] = int(line[1][-1])
+            data_line["out"] = "frente" if (line[2][-1] + line[3][-1] == "10") else "rotaciona"
             self.data.append(data_line)
     
     def display_position(self):
@@ -54,9 +52,9 @@ class Test:
     def run(self):
         for pos, step in enumerate(self.data):
             if self.display_position() == self.right_way[pos]:
-                print("\033[1;32;40m"+self.display_position())
+                print(self.display_position()+" OK!")
             else:
-                print("\033[1;31;40m"+self.display_position()+" \033[1;32;40m"+self.right_way[pos])
+                print(self.display_position()+" ERRO! CORRETO: "+self.right_way[pos])
             if step["out"] == "frente":
                 self.forward()
             elif step["out"] == "rotaciona":
