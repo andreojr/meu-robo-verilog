@@ -1,21 +1,21 @@
-Head: 0,Left: 0,Front: 1,Rotate: 0
-Head: 0,Left: 0,Front: 1,Rotate: 0
-Head: 1,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 1,Left: 1,Front: 0,Rotate: 1
-Head: 1,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 1,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 0,Front: 1,Rotate: 0
-Head: 1,Left: 1,Front: 0,Rotate: 1
-Head: 1,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 0,Front: 0,Rotate: 1
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 0,Left: 1,Front: 1,Rotate: 0
-Head: 0,Left: 1,Front: 1,Rotate: 0
+head:0,left:0,front:1,rotate:0
+head:0,left:0,front:1,rotate:0
+head:1,left:0,front:1,rotate:0
+head:0,left:0,front:1,rotate:0
+head:0,left:0,front:1,rotate:0
+head:0,left:1,front:0,rotate:1
+head:0,left:1,front:0,rotate:1
+head:0,left:1,front:0,rotate:1
+head:0,left:1,front:0,rotate:1
+head:1,left:1,front:1,rotate:0
+head:1,left:0,front:1,rotate:0
+head:0,left:0,front:1,rotate:0
+head:0,left:1,front:0,rotate:1
+head:1,left:0,front:0,rotate:1
+head:0,left:0,front:1,rotate:0
+head:1,left:1,front:1,rotate:0
+head:1,left:0,front:1,rotate:0
+head:0,left:0,front:1,rotate:0
+head:0,left:1,front:0,rotate:1
+head:0,left:1,front:0,rotate:1
+head:0,left:1,front:0,rotate:1
