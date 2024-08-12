@@ -79,8 +79,10 @@ class Accuracy:
 
     def generate_data(self):
         self.data = []
+        finish = "$finish" in open(self.output_path).readlines()[-1]
         with open(self.output_path, "r", encoding='utf-8') as file:
             reader = csv.reader(file, delimiter=",")
+            reader = list(reader)[0:-1] if finish else reader
             for row in reader:
                 data_line = {}
                 data_line["head"] = int(row[0][-1])
@@ -152,7 +154,7 @@ class Accuracy:
         self.clear()
 
         for step in self.data:
-            time.sleep(0.3)
+            time.sleep(0.1)
             self.move(step)
             self.render()
             self.verify_exception()

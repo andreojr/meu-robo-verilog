@@ -1,5 +1,5 @@
-import os, sys, platform, time
-rm = "del" if platform.system() == "Windows" else "rm"; args = len(sys.argv); py = sys.executable
+import os, sys, platform
+rm, sep = ["del", "\\"] if platform.system() == "Windows" else ["rm", "/"]; args = len(sys.argv); py = sys.executable
 
 path = 'simulator'
 machines = ['mealy', 'moore']
@@ -13,10 +13,10 @@ def define_machine(machine):
 def run(machine):
     define_machine(machine)
     cmd = ' && '.join([
-        f'iverilog -o {path}/output ./testbench.v',
-        f'vvp {path}/output > {path}/output.csv',
-        f'{rm} {path}/output',
-        f'{py} {path}/accuracy.py',
+        f'iverilog -o {path}{sep}output .{sep}testbench.v',
+        f'vvp {path}{sep}output > {path}{sep}output.csv',
+        f'{rm} {path}{sep}output',
+        f'{py} {path}{sep}accuracy.py',
     ])
     os.system(cmd)
 
