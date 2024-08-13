@@ -22,16 +22,14 @@ Este repositório contém um projeto para simulação e teste de um robô basead
 
 ## Como Executar o Projeto
 
-### Compilação e Simulação
-
-## EDA Playground
+### EDA Playground
 
 O testbench, ambos os robôs e o divisor de frequência podem ser compilados pelo EDA Playground. O código de cada máquina pode ser acessado clicando nos links abaixo:
 
 - [mealy](https://edaplayground.com/x/HfDh);
 - [moore](https://edaplayground.com/x/UTnR).
 
-## Executando na sua máquina
+### Executando na sua máquina
 
 1. Certifique-se de ter o Icarus Verilog instalado.
 - [Link para download do Icarus Verilog no Windows](https://bleyer.org/icarus/iverilog-v12-20220611-x64_setup.exe)
