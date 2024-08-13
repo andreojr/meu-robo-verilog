@@ -1,4 +1,4 @@
-### Projeto de Robô Mealy e Moore com Contador Divisor de Frequência
+# Projeto de Robô Mealy e Moore com Contador Divisor de Frequência
 
 Este repositório contém um projeto para simulação e teste de um robô baseado em máquinas de estados Mealy e Moore, com um contador divisor de frequência. O projeto inclui tanto a parte de hardware descrita em Verilog quanto uma parte destinada a simulação e visualização em Python.
 
