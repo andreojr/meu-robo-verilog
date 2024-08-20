@@ -39,7 +39,7 @@ O testbench, ambos os robôs e o divisor de frequência podem ser compilados pel
     sudo apt-get install verilog
     ```
     
-1. Use o script `compile.py` para compilar o código Verilog e rodar a simulação.
+2. Use o script `compile.py` para compilar o código Verilog e rodar a simulação.
     
     ```bash
     python simulator/compile.py
