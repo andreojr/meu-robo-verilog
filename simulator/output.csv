@@ -97,4 +97,4 @@ head:1,left:1,front:0,rotate:1
 head:1,left:0,front:0,rotate:1
 head:0,left:0,front:0,rotate:1
 head:0,left:1,front:1,rotate:0
-$finish()
+.\testbench.v:115: $finish called at 1387 (1s)

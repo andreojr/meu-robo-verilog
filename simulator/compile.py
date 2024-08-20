@@ -28,4 +28,5 @@ else:
     if machine not in machines:
         print("A máquina informada não é válida!")
         sys.exit()
+    print(f'Carregando teste para máquina de {machine}...')
     run(machine)
