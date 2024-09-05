@@ -8,13 +8,11 @@ M = []
 for i in range(r):
     row = []
     for j in range(c):
-        # Verifica a primeira borda (borda externa)
         if i == 0 or j == 0 or i == r - 1 or j == c - 1:
             row.append(1)
         else:
-            # Verifica as bordas internas e aplica as probabilidades
             border = min(i, j, r - i - 1, c - j - 1)
-            if border > 0:  # Apenas aplica para bordas internas (não para a borda externa)
+            if border > 0:
                 odds = 0
                 match border:
                     case 1:
@@ -32,6 +30,9 @@ for i, j in empty_positions:
     if M[i-1][j] and M[i+1][j] and M[i][j-1] and M[i][j+1]:
         M[i][j] = 1
         empty_positions.remove([i,j])
+    elif not M[i-1][j] and not M[i+1][j] and not M[i][j-1] and not M[i][j+1]:
+        M[i][j] = 0
+        empty_positions.append([i,j])
 
 init = empty_positions[random.choice(list(range(len(empty_positions))))]
 M[init[0]][init[1]] = random.choice(["^", "v", "<", ">"])
