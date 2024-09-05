@@ -1,4 +1,9 @@
-module counter #(parameter clk_frequency = 1) (initial_clk, clk);
+module counter #(
+    parameter clk_frequency = 1
+) (
+    initial_clk,
+    clk
+);
     input initial_clk;
     output reg clk;
 

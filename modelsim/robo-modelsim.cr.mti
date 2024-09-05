@@ -1,0 +1,31 @@
+/home/andreojr/dev/meu-robo-verilog/modelsim/mealy.v {1 {vlog -work work -stats=none /home/andreojr/dev/meu-robo-verilog/modelsim/mealy.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_mealy
+
+Top level modules:
+	fsm_mealy
+
+} {} {}} /home/andreojr/dev/meu-robo-verilog/modelsim/counter.v {1 {vlog -work work -stats=none /home/andreojr/dev/meu-robo-verilog/modelsim/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} /home/andreojr/dev/meu-robo-verilog/modelsim/design.v {1 {vlog -work work -stats=none /home/andreojr/dev/meu-robo-verilog/modelsim/design.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module moore
+-- Compiling module mealy
+
+Top level modules:
+	moore
+	mealy
+
+} {} {}} /home/andreojr/dev/meu-robo-verilog/modelsim/moore.v {1 {vlog -work work -stats=none /home/andreojr/dev/meu-robo-verilog/modelsim/moore.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_moore
+
+Top level modules:
+	fsm_moore
+
+} {} {}}

@@ -1,0 +1,66 @@
+# Loading project robo-modelsim
+# Compile of moore.v was successful.
+# Compile of mealy.v was successful.
+# Compile of counter.v was successful.
+# Compile of design.v was successful.
+# Compile of testbench.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:45:44 on Sep 05,2024
+# Loading work.testbench
+# Loading work.mealy
+# Loading work.counter
+# Loading work.fsm_mealy
+# Loading work.moore
+# Loading work.fsm_moore
+add wave -position insertpoint sim:/testbench/*
+vsim work.testbench
+# End time: 17:47:30 on Sep 05,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 4
+# vsim work.testbench 
+# Start time: 17:47:30 on Sep 05,2024
+# Loading work.testbench
+# Loading work.mealy
+# Loading work.counter
+# Loading work.fsm_mealy
+# Loading work.moore
+# Loading work.fsm_moore
+add wave -position insertpoint sim:/testbench/moore/frequency/*
+add wave -position insertpoint sim:/testbench/*
+run
+# ** Note: $finish    : /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v(52)
+#    Time: 887 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v line 52
+# WARNING: No extended dataflow license exists
+restart
+run -all
+# ** Note: $finish    : /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v(52)
+#    Time: 1237 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v line 52
+restart
+run -all
+# ** Note: $finish    : /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v(52)
+#    Time: 1013 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v line 52
+restart
+run -all
+# ** Note: $finish    : /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v(52)
+#    Time: 1475 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v line 52
+restart
+run -all
+# ** Note: $finish    : /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v(52)
+#    Time: 1349 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v line 52
+restart
+run -all
+# ** Note: $finish    : /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v(52)
+#    Time: 1601 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v line 52

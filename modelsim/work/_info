@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/andreojr
+vcounter
+Z0 !s110 1725569136
+!i10b 1
+!s100 VcFJZ`i?WZ[Xl7`1?ChX31
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ib1_nm6]fFZGDf?3[YBUI`0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/andreojr/dev/meu-robo-verilog/modelsim
+w1725512104
+8/home/andreojr/dev/meu-robo-verilog/modelsim/counter.v
+F/home/andreojr/dev/meu-robo-verilog/modelsim/counter.v
+!i122 116
+L0 1 16
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1725569136.000000
+!s107 /home/andreojr/dev/meu-robo-verilog/modelsim/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/andreojr/dev/meu-robo-verilog/modelsim/counter.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfsm_mealy
+R0
+!i10b 1
+!s100 R4jVALQJ4@Xm6k1NJcB9N2
+R1
+I`Z`Q?kmW3]KXOM9@;1Tb02
+R2
+R3
+w1725556201
+8/home/andreojr/dev/meu-robo-verilog/modelsim/mealy.v
+F/home/andreojr/dev/meu-robo-verilog/modelsim/mealy.v
+!i122 115
+L0 1 126
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/andreojr/dev/meu-robo-verilog/modelsim/mealy.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/andreojr/dev/meu-robo-verilog/modelsim/mealy.v|
+!i113 1
+R6
+R7
+vfsm_moore
+R0
+!i10b 1
+!s100 SKP[zIWFDkNW@U2GWcakA1
+R1
+I;enB3mG61QNG][;8jVM9h3
+R2
+R3
+w1725554874
+8/home/andreojr/dev/meu-robo-verilog/modelsim/moore.v
+F/home/andreojr/dev/meu-robo-verilog/modelsim/moore.v
+!i122 114
+L0 1 64
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/andreojr/dev/meu-robo-verilog/modelsim/moore.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/andreojr/dev/meu-robo-verilog/modelsim/moore.v|
+!i113 1
+R6
+R7
+vmain
+!s110 1725554506
+!i10b 1
+!s100 m@QM]We_keh3cNGg7Ug=m3
+R1
+I9KaLmoY;NQ5KUiUn`c8^N1
+R2
+R3
+w1725553600
+Z8 8/home/andreojr/dev/meu-robo-verilog/modelsim/design.v
+Z9 F/home/andreojr/dev/meu-robo-verilog/modelsim/design.v
+!i122 68
+Z10 L0 1 25
+R4
+r1
+!s85 0
+31
+!s108 1725554506.000000
+Z11 !s107 /home/andreojr/dev/meu-robo-verilog/modelsim/design.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|/home/andreojr/dev/meu-robo-verilog/modelsim/design.v|
+!i113 1
+R6
+R7
+vmealy
+R0
+!i10b 1
+!s100 2@cWBMO4H]o38BTlh:diP2
+R1
+IAnTRo4Z>PBSce48]EGEz`1
+R2
+R3
+Z13 w1725554887
+R8
+R9
+!i122 117
+L0 27 25
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+vmoore
+R0
+!i10b 1
+!s100 ZHZ0c4W3cJibBcl4g[J;30
+R1
+IXLSXd;0j7z@6IKo?2I^`^2
+R2
+R3
+R13
+R8
+R9
+!i122 117
+R10
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+vtestbench
+R0
+!i10b 1
+!s100 JH5a=KVFZZzX6iPkhCnJI2
+R1
+I`NAd>BC0[2`>CdIGzWNnV2
+R2
+R3
+w1725569058
+8/home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v
+F/home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v
+!i122 118
+L0 1 54
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/andreojr/dev/meu-robo-verilog/modelsim/testbench.v|
+!i113 1
+R6
+R7
